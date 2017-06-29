@@ -3,10 +3,13 @@
   display: flex;
   .wri-nav-menu{
     background-color: white;
-    width: 30%;
+    width: 40%;
     padding: 20px;
     img{
       width: 200px;
+    }
+    ul{
+      padding: 0 0 0 90px;
     }
     ul li{
       list-style: none;
