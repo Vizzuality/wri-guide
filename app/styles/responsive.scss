@@ -1,0 +1,13 @@
+// Mobile
+@media (min-width: 375px) and (max-width: 767px){
+  .wri-menu-container{
+    visibility: hidden;
+  }
+}
+
+// Tablet
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .wri-menu-container{
+    visibility: hidden;
+  }
+}
