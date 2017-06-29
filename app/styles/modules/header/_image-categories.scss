@@ -1,0 +1,25 @@
+#headerWrI .wri-menu-container{
+  .wri-menu-categories{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .wri-category{
+      color: white;
+      width: 33.3%;
+      flex: none;
+      img, p{
+        cursor: pointer;
+      }
+      img{
+        width: 100%;
+        position: relative;
+        margin-bottom: -10px;
+      }
+      p{
+        position: absolute;
+      }
+    }
+  }
+}
