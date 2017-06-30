@@ -1,10 +1,10 @@
-<div class="wri-headerTopbar">
-  <img src="./images/logo_WRITopbar.png" alt="World Resources Institute Logo">
+<div id="WRI-showHeader" class="wri-headerTopbar">
+  <img src="./images/WRI-monoline.svg" alt="World Resources Institute Logo">
 </div>
 
-<div class="wri-menu-container">
+<div class="wri-menu-container" style="visibility:hidden;">
   <div class="wri-nav-menu">
-    <img src="./images/logo_WRIMenu.png" alt="World Resources Institute Logo">
+    <img src="./images/WRI_logo.svg" alt="World Resources Institute Logo">
     <ul>
       <li><a href="">What we do</a></li>
       <li><a href="">Where we work</a></li>
@@ -20,37 +20,37 @@
     <div class="wri-category">
       <a href="">
         <img src="./images/category1.jpg" alt="">
-        <!-- <p>Climate</p> -->
+        <p class="up-categories">Climate</p>
       </a>
     </div>
     <div class="wri-category">
       <a href="">
         <img src="./images/category2.jpg" alt="">
-        <!-- <p>Energy</p> -->
+        <p class="up-categories">Energy</p>
       </a>
     </div>
     <div class="wri-category">
       <a href="">
         <img src="./images/category3.jpg" alt="">
-        <!-- <p>Food</p> -->
+        <p class="up-categories">Food</p>
       </a>
     </div>
     <div class="wri-category">
       <a href="">
         <img src="./images/category4.jpg" alt="">
-        <!-- <p>Forests</p> -->
+        <p class="down-categories">Forests</p>
       </a>
     </div>
     <div class="wri-category">
       <a href="#">
         <img src="./images/category5.jpg" alt="">
-        <!-- <p>Water</p> -->
+        <p class="down-categories">Water</p>
       </a>
     </div>
     <div class="wri-category">
       <a href="#">
         <img src="./images/category6.jpg" alt="">
-        <!-- <p>Cities and transport</p> -->
+        <p class="down-categories">Cities and transport</p>
       </a>
     </div>
   </div>

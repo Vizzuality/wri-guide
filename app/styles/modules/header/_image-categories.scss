@@ -15,11 +15,24 @@
       }
       img{
         width: 100%;
+        height: 200px;
         position: relative;
         margin-bottom: -10px;
       }
       p{
         position: absolute;
+      }
+      p.up-categories, p.down-categories{
+        padding-left: 18px;
+        color: white;
+        font-family: 'Acumin Pro';
+        font-size: 20px;
+      }
+      p.up-categories{
+        top: 165px;
+      }
+      p.down-categories{
+        top: 365px;
       }
     }
   }
