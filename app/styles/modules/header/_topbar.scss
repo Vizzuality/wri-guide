@@ -4,10 +4,8 @@
   background-color: #333333;
   display: flex;
   flex-direction: row-reverse;
-  margin-top: -10px;
   cursor: pointer;
-  img{
-    height: 25px;
-    padding: 5px 50px;
+  svg{
+    padding: 10px 40px;
   }
 }
