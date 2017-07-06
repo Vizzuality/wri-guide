@@ -2,7 +2,7 @@
   .wri-menu-categories{
     flex: 1;
     min-height: 400px;
-    height: 48vh;
+    height: 50vh;
     ul{
       display: flex;
       flex-wrap: wrap;
@@ -16,7 +16,8 @@
     .climate, .energy, .food, .forest, .water, .cities{
       display: flex;
       width: 33.3%;
-      height: 200px;
+      min-height: 200px;
+      height: 25vh;
       background-size: cover;
     }
     .climate{
