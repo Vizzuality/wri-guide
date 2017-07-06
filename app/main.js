@@ -29,10 +29,11 @@ function displayHeader(){
   if(window.screen.availWidth > 991){
     if(headerWri[0].style.visibility === 'hidden'){
       headerWri[0].style.visibility = 'visible';
-      document.body.className = 'overlay';
+       document.getElementById('wri-fuckawesome-overlay').style.display = 'block';
+       document.body.style.overflow = 'hidden';
     }else{
       headerWri[0].style.visibility = 'hidden';
-      document.body.className = 'no-overlay';
+      document.getElementById('wri-fuckawesome-overlay').style.display = 'none';
     }
   }else{
     window.open('http://www.wri.org/','_blank');

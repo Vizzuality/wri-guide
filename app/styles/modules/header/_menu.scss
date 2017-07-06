@@ -1,6 +1,8 @@
 #headerWrI .wri-menu-container{
   width: 100%;
   display: flex;
+  position: relative;
+  z-index: 100;
   .wri-nav-menu{
     background-color: white;
     width: 40%;
