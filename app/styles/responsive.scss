@@ -11,3 +11,23 @@
     visibility: hidden;
   }
 }
+
+@media screen and (min-width: 1440px){
+  #headerWrI .wri-menu-container{
+    .wri-menu-categories{
+      width: 100%;
+      .climate, .energy, .food, .forest, .water, .cities{
+        display: flex;
+        width: 33.3%;
+        height: 250px;
+        background-size: 100% 250px;
+      }
+      p.up-categories{
+        top: 200px;
+      }
+      p.down-categories{
+         top: 450px;
+      }
+    }
+  }
+}
