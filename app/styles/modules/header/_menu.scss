@@ -7,11 +7,17 @@
      .wri-nav-menu-content{
        display: flex;
        flex-direction: column;
-       align-items: flex-end;
+       position: relative;
+       padding-top: 70px;
+       svg{
+         position: absolute;
+         left: -82px;
+         top: 0;
+       }
      }
     background-color: white;
     width: 40%;
-    padding: 20px;
+    padding-top: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
