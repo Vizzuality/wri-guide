@@ -19,14 +19,7 @@
       .climate, .energy, .food, .forest, .water, .cities{
         display: flex;
         width: 33.3%;
-        height: 250px;
-        background-size: 100% 250px;
-      }
-      h2.up-categories{
-        top: 180px;
-      }
-      h2.down-categories{
-         top: 430px;
+        background-size: cover;
       }
     }
   }
