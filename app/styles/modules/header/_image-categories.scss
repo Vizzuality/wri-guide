@@ -16,24 +16,32 @@
       width: 33.3%;
       height: 200px;
       background-size: 100% 200px;
+      &:before{
+        position: absolute;
+        top: 0;
+        right: 0;
+      	bottom: 0;
+      	left: 0;
+      	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+      }
     }
     .climate{
-      background-image: url('/app/images/category1.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+      background-image: url('/app/images/category1.jpg');
     }
     .energy{
-      background-image: url('/app/images/category2.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+      background-image: url('/app/images/category2.jpg');
     }
     .food{
-      background-image: url('/app/images/category3.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+      background-image: url('/app/images/category3.jpg');
     }
     .forest{
-      background-image: url('/app/images/category4.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+      background-image: url('/app/images/category4.jpg');
     }
     .water{
-      background-image: url('/app/images/category5.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+      background-image: url('/app/images/category5.jpg');
     }
     .cities{
-      background-image: url('/app/images/category6.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+      background-image: url('/app/images/category6.jpg');
     }
     a{
       display: block;
