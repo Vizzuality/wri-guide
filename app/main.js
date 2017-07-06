@@ -14,6 +14,10 @@ const init = () => {
 
   var topbarWri = document.getElementById('WRI-showHeader');
   topbarWri.addEventListener("click", displayHeader);
+
+  var overlay = document.createElement('div');
+  overlay.id = 'wri-fuckawesome-overlay';
+  document.body.appendChild(overlay);
 }
 
 if(!!document.readyState && (document.readyState === "complete" || document.readyState === "interactive")) {
@@ -25,10 +29,6 @@ if(!!document.readyState && (document.readyState === "complete" || document.read
 
 function displayHeader(){
   var headerWri = document.getElementsByClassName('wri-menu-container');
-
-  var overlay = document.createElement('div');
-  overlay.id = 'wri-fuckawesome-overlay';
-  document.body.appendChild(overlay);
 
   if(window.screen.availWidth > 991){
     if(headerWri[0].style.visibility === 'hidden'){
