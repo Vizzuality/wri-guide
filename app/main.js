@@ -35,6 +35,7 @@ function displayHeader(){
       headerWri[0].style.visibility = 'visible';
        document.getElementById('wri-fuckawesome-overlay').style.display = 'block';
        document.body.className = 'wri-overflow-header';
+       document.body.style.paddingTop = '35px';
     }else{
       headerWri[0].style.visibility = 'hidden';
       document.getElementById('wri-fuckawesome-overlay').style.display = 'none';
