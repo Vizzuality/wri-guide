@@ -50,41 +50,34 @@
     <ul>
       <li class="climate">
         <a href="">
-          <!-- <img src="./images/category1.jpg" alt=""> -->
           <p class="up-categories">Climate</p>
         </a>
       </li>
       <li class="energy">
         <a href="">
-          <!-- <img src="./images/category2.jpg" alt=""> -->
           <p class="up-categories">Energy</p>
         </a>
       </li>
       <li class="food">
         <a href="">
-          <!-- <img src="./images/category3.jpg" alt=""> -->
           <p class="up-categories">Food</p>
         </a>
       </li>
       <li class="forest">
         <a href="">
-          <!-- <img src="./images/category4.jpg" alt=""> -->
           <p class="down-categories">Forests</p>
         </a>
       </li>
       <li class="water">
         <a href="#">
-          <!-- <img src="./images/category5.jpg" alt=""> -->
           <p class="down-categories">Water</p>
         </a>
       </li>
       <li class="cities">
         <a href="#">
-          <!-- <img src="./images/category6.jpg" alt=""> -->
           <p class="down-categories">Cities and transport</p>
         </a>
       </li>
     </ul>
   </div>
 </div>
-<div id="wri-fuckawesome-overlay"></div>

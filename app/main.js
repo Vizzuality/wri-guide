@@ -25,15 +25,20 @@ if(!!document.readyState && (document.readyState === "complete" || document.read
 
 function displayHeader(){
   var headerWri = document.getElementsByClassName('wri-menu-container');
-  console.log(window.screen.width);
+
+  var overlay = document.createElement('div');
+  overlay.id = 'wri-fuckawesome-overlay';
+  document.body.appendChild(overlay);
+
   if(window.screen.availWidth > 991){
     if(headerWri[0].style.visibility === 'hidden'){
       headerWri[0].style.visibility = 'visible';
        document.getElementById('wri-fuckawesome-overlay').style.display = 'block';
-       document.body.style.overflow = 'hidden';
+       document.body.className = 'wri-overflow-header';
     }else{
       headerWri[0].style.visibility = 'hidden';
       document.getElementById('wri-fuckawesome-overlay').style.display = 'none';
+      document.body.className = 'no-wri-overflow-header';
     }
   }else{
     window.open('http://www.wri.org/','_blank');
