@@ -1,10 +1,11 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const prod = process.env.NODE_ENV === 'production';
 
 const config = {
 
-  devtool: process.env.NODE_ENV === 'production' ? false : 'cheap-eval-source-map',
+  devtool: prod ? false : 'cheap-eval-source-map',
 
   context: path.resolve(__dirname, 'app'),
 
@@ -13,7 +14,7 @@ const config = {
   output: {
     filename: 'wri-guide-assets.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/'
+    publicPath: prod ? 'https://vizzuality.github.io/wri-guide/' : '/'
   },
 
   module: {
@@ -76,7 +77,7 @@ const config = {
 
 };
 
-if (process.env.NODE_ENV === 'production') {
+if (prod) {
   config.plugins.push(new webpack.optimize.UglifyJsPlugin({
     compress: {
       warnings: false
