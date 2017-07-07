@@ -66,11 +66,9 @@
       text-align: left;
       color: white;
     }
-    h2.up-categories{
-      top: 130px;
-    }
-    h2.down-categories{
-       top: 330px;
+    h2.up-categories, h2.down-categories{
+      padding-top: 136px;
+      padding-bottom: 13px;
     }
   }
 }
