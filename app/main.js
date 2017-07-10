@@ -9,6 +9,9 @@ import Header from './js/modules/header';
 import './styles/global.scss';
 
 const init = () => {
+
+  document.body.style.paddingTop = '35px'; // padding for force space for header
+
   // Adding header
   new Header();
 
@@ -17,6 +20,7 @@ const init = () => {
 
   var overlay = document.createElement('div');
   overlay.id = 'wri-fuckawesome-overlay';
+  overlay.className = 'wri-hideOverlay-omg';
   document.body.appendChild(overlay);
 }
 
@@ -32,14 +36,13 @@ function displayHeader(){
   var overlay = document.getElementById('wri-fuckawesome-overlay');
 
   if(window.screen.availWidth > 991){
-    if(headerWri[0].id === 'wri-hideHeader-omg'){
+    if(headerWri[0].id === 'wri-hideHeader-omg' && overlay.className === 'wri-hideOverlay-omg'){
        headerWri[0].id = 'wri-showHeader-omg';
        overlay.className = 'wri-showOverlay-omg';
        document.body.className = 'wri-overflow-header';
-       document.body.style.paddingTop = '35px';
     }else{
       headerWri[0].id = 'wri-hideHeader-omg';
-      overlay.style.className = 'wri-hideOverlay-omg';
+      overlay.className = 'wri-hideOverlay-omg';
       document.body.className = 'no-wri-overflow-header';
     }
   }else{

@@ -17,7 +17,7 @@
   </svg>
 </div>
 
-<div class="wri-menu-container" style="visibility:hidden;">
+<div id="wri-hideHeader-omg" class="wri-menu-container">
   <div class="wri-nav-menu">
     <div class="wri-nav-menu-content">
       <svg width="184px" height="64px" viewBox="0 0 184 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
