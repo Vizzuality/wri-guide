@@ -25,9 +25,18 @@ To see in development mode run and follow terminal instructions:
 
 ## How to use (in sites)
 
-Add this piece of HTML in your site to add WRI's header:
+Add this snippet your site:
 
-	<div id="headerWrI"></div>
+```js
+(function(){
+  var element = document.createElement('div'),
+    scriptTag = document.createElement('script');
+  element.id = 'headerWrI';
+  scriptTag.src = 'https://vizzuality.github.io/wri-guide/wri-guide-assets.js';
+  document.body.insertBefore(element, document.body.firstChild);
+  document.body.appendChild(scriptTag);
+})();
+```
 
 ## Contributing
 
