@@ -29,16 +29,17 @@ if(!!document.readyState && (document.readyState === "complete" || document.read
 
 function displayHeader(){
   var headerWri = document.getElementsByClassName('wri-menu-container');
+  var overlay = document.getElementById('wri-fuckawesome-overlay');
 
   if(window.screen.availWidth > 991){
-    if(headerWri[0].style.visibility === 'hidden'){
-      headerWri[0].style.visibility = 'visible';
-       document.getElementById('wri-fuckawesome-overlay').style.display = 'block';
+    if(headerWri[0].id === 'wri-hideHeader-omg'){
+       headerWri[0].id = 'wri-showHeader-omg';
+       overlay.className = 'wri-showOverlay-omg';
        document.body.className = 'wri-overflow-header';
        document.body.style.paddingTop = '35px';
     }else{
-      headerWri[0].style.visibility = 'hidden';
-      document.getElementById('wri-fuckawesome-overlay').style.display = 'none';
+      headerWri[0].id = 'wri-hideHeader-omg';
+      overlay.style.className = 'wri-hideOverlay-omg';
       document.body.className = 'no-wri-overflow-header';
     }
   }else{

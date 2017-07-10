@@ -18,6 +18,22 @@
   overflow: hidden;
 }
 
+#wri-showHeader-omg{
+  visibility: visible;
+}
+
+#wri-hideHeader-omg{
+  visibility: hidden;
+}
+
+.wri-showOverlay-omg{
+  display: block;
+}
+
+.wri-hideOverlay-omg{
+  display: none;
+}
+
 #wri-fuckawesome-overlay{
   position:fixed;
   display: none;
